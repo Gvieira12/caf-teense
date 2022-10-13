@@ -7,6 +7,8 @@
     <title>Caféteense</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js.js"></script>
+
     <script src="https://kit.fontawesome.com/7d807736df.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +26,7 @@
             </ul>
         </nav>
     </header>
-    <section class="header-1">
+    <section class="header-1 hidden">
         <div class="header-contents">
             <img class="header-contents-img"
                 src="https://www.cacaushow.com.br/on/demandware.static/-/Sites-CacauShow-Library/default/dw9084e91b/images/Landing/fazendaDedoDeDeus/banner-produtores.jpg"
@@ -34,7 +36,7 @@
         </div>
     </section>
     <section class="main">
-        <section class="about">
+        <section class="about hidden">
             <div class="about-container">
                 <h1 class="about-title">Caféteense</h1>
                 <h2 class="about-title">Empresa responsável por produzir café, fundada em São Mateus-ES.</h2>
@@ -52,9 +54,9 @@
                 <img class="img-right" src="/components/cafe-vapor.webp">
             </div>
         </section>
-        <section class="produtos">
+        <section class="produtos hidden">
             <div class="carrossel-contents">
-                <img src="/components/Products_Mockup_1.png" alt="" class="carrossel-img s1">
+                <img  loading="lazy" src="/components/Products_Mockup_1.png" alt="" class="carrossel-img s1">
                 <h1>
                     Café Forte, torrado e moído
                 </h1>
@@ -66,13 +68,13 @@
                 </h1>
             </div>
         </section>
-        <div class="tec-title">
+        <div class="tec-title hidden">
             <div class="h1-tec">
                 <h1>Tecnologias</h1>
                 <img class="tec-icon" src="/components/tecnologia-brown.png" alt="ilustração saco de café">
             </div>
         </div>
-        <section class="center-left melhorias">
+        <section class="center-left melhorias hidden">
             <p>
                 a colheita mecanizada torna-se fundamental para economizar na mão de obra e no tempo, trazendo maior
                 otimização para este processo fundamental, com uma economia que pode chegar a até 50%. Com o uso das
@@ -92,7 +94,7 @@
                 A tecnologia de sensoriamento remoto, por exemplo, é uma realidade cada vez mais acessível aos produtores brasileiros. Por meio de imagens geradas por sensores, como satélites e drones, é possível ter acesso completo às condições das lavouras.
             </p>
         </section>
-        <section class="tec-visuals">
+        <section class="tec-visuals hidden">
             <div class="tec-contents">
                 <img class="tec-img" src="components/tec-1.jpg" alt="Utilização do trator na coleta do café">
             </div>

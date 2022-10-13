@@ -3,6 +3,10 @@
     font-family: sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     max-width: 100%;
     height: 100%;
@@ -66,6 +70,19 @@ body {
     height: 100%;
     display: inline;
     position: relative;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 1s;
+    filter: blur(4px);
+}
+.show {
+    opacity: 1;
+    transform: translateX(0%);
+    filter: blur(0);
+    
 }
 
 .header-contents h1 {
